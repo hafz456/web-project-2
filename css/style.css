@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 span {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+
+p {
+    padding: 2% 0;
+}
+
+p, a, .roboto-font-style {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-variation-settings:
+    "wdth" 100;
+    line-height: 1.6;
+}
+
+footer {
+    margin: 2% 0;
+    text-align: center;
+}
+
+a {
+    margin:0 2%;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+button {
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(240,240,240,255);
+    color: black;
+}
+
+.opt-section-pad-marg {
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.container {
+    margin: 0 15%;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-bottom: 8%;
+}
+
+.title-desc-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.highlight {
+    color: rgba(165,222,115,255);
+}
+
+.profile {
+    display: flex;
+    padding-top: 1px;
+}
+
+.profile-pic {
+    border-radius: 5%;
+    padding: 0 10px;
+    height: 300px;
+}
+
+.skill-div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 8%;
+}
+
+.section-title{
+    text-align: center;
+    padding: 3% 0;
+    font-size: 30px;
+}
+
+.skill-desc-div {
+    padding-bottom: 2%;
+    margin-right: 25%;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#skils-set, #footer {
+    background-color: rgba(240,240,240,255);
+}
+
+@media (max-width: 1130px) {
+  body {
+    font-size: 15px;
+  }
+
+  .title-div {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+  }
+   .title-desc-div {
+    margin: 0;
+  }
+
+  h1 span {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .skill-desc-div {
+    padding: 2% 0;
+    margin: 0;
+    text-align: center;
+  }
+}
